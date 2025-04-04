@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Создание сайтов для психологов</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1588776814546-ec7e4f3c1f3c?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      padding: 100px 20px;
+      color: white;
+    }
+    header h1 { font-size: 36px; margin-bottom: 10px; }
+    header p { font-size: 20px; max-width: 700px; margin: auto; }
+    .cta-buttons a, .button { display: inline-block; margin: 15px 10px 0; padding: 12px 25px; background: #407BFF; color: white; text-decoration: none; border-radius: 6px; }
+    h2 { font-size: 28px; margin-bottom: 20px; }
+    ul { list-style: none; padding-left: 0; }
+    ul li { margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    ul li i { color: #407BFF; min-width: 20px; text-align: center; }
+    .features li i { content: ""; }
+    .audience li i { content: ""; }
+    .includes li:nth-child(1) i::before { content: "\f1fc"; }
+    .includes li:nth-child(2) i::before { content: "\f303"; }
+    .includes li:nth-child(3) i::before { content: "\f085"; }
+    .includes li:nth-child(4) i::before { content: "\f073"; }
+    .includes li:nth-child(5) i::before { content: "\f1e0"; }
+    .includes li:nth-child(6) i::before { content: "\f1b3"; }
+    .numbered { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .numbered div { background: #f7f9fc; padding: 20px; border-radius: 6px; position: relative; padding-left: 50px; }
+    .numbered div::before { position: absolute; left: 15px; top: 20px; font-size: 24px; font-weight: bold; color: #407BFF; }
+    .numbered div:nth-child(1)::before { content: '01'; }
+    .numbered div:nth-child(2)::before { content: '02'; }
+    .numbered div:nth-child(3)::before { content: '03'; }
+    .numbered div:nth-child(4)::before { content: '04'; }
+    footer { background: #f4f4f4; text-align: center; padding: 20px; font-size: 14px; color: #777; }
+  </style>
+<script src="https://unpkg.com/scrollreveal"></script>
+<style>
+  [data-sr] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+</style>
+$1
+$1
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    ScrollReveal().reveal('[data-sr]', {
+      distance: '30px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 100
+    });
+  });
+</script>
+<section data-sr class="features">
+  <img src="https://images.unsplash.com/photo-1588775814543-1d473fd3e6ab?auto=format&fit=crop&w=1200&q=80" alt="Психологическая консультация" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Разрабатываем сайты с учетом специфики вашей практики</h2>
+  <ul>
+    <li><i class="fas fa-calendar-check"></i> Онлайн-запись, прием оплаты, интеграция с мессенджерами и Zoom</li>
+    <li><i class="fas fa-user"></i> Разделы «О себе», услуги, блог, отзывы и дипломы</li>
+    <li><i class="fas fa-shield-alt"></i> Безопасность и доверие — ключ к долгосрочным отношениям с клиентами</li>
+  </ul>
+</section>
+
+<section class="audience">
+  <img src="https://images.unsplash.com/photo-1604882352321-3c21e705b1a6?auto=format&fit=crop&w=1200&q=80" alt="Психолог за работой" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Вам точно к нам, если вы...</h2>
+  <ul>
+    <li><i class="fas fa-user-md"></i> Ведете частную практику или работаете в команде</li>
+    <li><i class="fas fa-laptop-medical"></i> Принимаете онлайн или офлайн</li>
+    <li><i class="fas fa-id-badge"></i> Строите личный бренд психолога</li>
+    <li><i class="fas fa-users"></i> Ведете группы, курсы или вебинары</li>
+    <li><i class="fas fa-cogs"></i> Хотите автоматизировать запись и снизить рутину</li>
+  </ul>
+  <a class="button" href="#">Подобрать дизайн</a>
+</section>
+
+<section class="benefits">
+  <img src="https://images.unsplash.com/photo-1616587223911-651d02119642?auto=format&fit=crop&w=1200&q=80" alt="Польза сайта" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Зачем психологу нужен сайт?</h2>
+  <div class="numbered">
+    <div><strong>01. Приток новых клиентов</strong><br><i class="fas fa-bullseye"></i> Через онлайн-запись, SEO, удобную структуру сайта и доверие</div>
+    <div><strong>02. Упрощение процессов</strong><br><i class="fas fa-clock"></i> Запись, оплата, расписание, формы обратной связи</div>
+    <div><strong>03. Повышение доверия</strong><br><i class="fas fa-thumbs-up"></i> Отзывы, дипломы, методики — все под рукой</div>
+    <div><strong>04. Продвижение в поиске</strong><br><i class="fas fa-search"></i> Сайт помогает найти вас в Google и Яндекс</div>
+  </div>
+</section>
+
+<section class="includes">
+  <img src="https://images.unsplash.com/photo-1612831662119-ccf97b44e4ea?auto=format&fit=crop&w=1200&q=80" alt="Функции сайта для психолога" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Готовый сайт для психолога включает</h2>
+  <ul>
+    <li><i class="fas fa-paint-brush"></i> Уникальный дизайн, адаптированный под ваш стиль</li>
+    <li><i class="fas fa-pen"></i> SEO-оптимизированный текст, рассказывающий о вас и ваших услугах</li>
+    <li><i class="fas fa-cog"></i> Удобное управление контентом без программиста</li>
+    <li><i class="fas fa-calendar-alt"></i> Онлайн-запись, оплата и напоминания</li>
+    <li><i class="fas fa-share-alt"></i> Интеграции с мессенджерами, соцсетями и Zoom</li>
+    <li><i class="fas fa-plus-circle"></i> +10 дополнительных функций — расскажем при консультации</li>
+  </ul>
+  <a class="button" href="#">Оставить заявку</a>
+</section>
+
+<section class="catalog">
+  <img src="https://images.unsplash.com/photo-1600195077073-30f29c0c50cf?auto=format&fit=crop&w=1200&q=80" alt="Каталог услуг" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Онлайн-каталог → Онлайн-представительство</h2>
+  <ul>
+    <li><i class="fas fa-list"></i> Услуги по направлениям: индивидуальные, семейные, онлайн-консультации</li>
+    <li><i class="fas fa-comment-dots"></i> Отзывы и кейсы</li>
+    <li><i class="fas fa-blog"></i> Блог/публикации</li>
+    <li><i class="fas fa-calendar-day"></i> Анонсы вебинаров и мероприятий</li>
+    <li><i class="fas fa-question-circle"></i> Разделы «Часто задаваемые вопросы», «Контакты», «Обо мне»</li>
+  </ul>
+</section>
+
+<section class="qr">
+  <img src="https://images.unsplash.com/photo-1627398242455-fd0b0f8c0e65?auto=format&fit=crop&w=1200&q=80" alt="QR и мобильные ссылки" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>QR-меню → Умные ссылки и визитки</h2>
+  <ul>
+    <li><i class="fas fa-qrcode"></i> Быстрые ссылки на сайт с визитки, соцсетей, рассылки</li>
+    <li><i class="fas fa-share-square"></i> Удобно делиться — Telegram, WhatsApp, Instagram</li>
+    <li><i class="fas fa-map-marker-alt"></i> Можно добавить на Google-карту или в Яндекс.Справочник</li>
+    <li><i class="fas fa-mobile-alt"></i> Совместимо с мобильными, без скачиваний и сложностей</li>
+  </ul>
+</section>
+
+<section class="manage">
+  <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea4ba?auto=format&fit=crop&w=1200&q=80" alt="Управление практикой" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Управление заказами → Удобная работа с клиентами</h2>
+  <ul>
+    <li><i class="fas fa-bell"></i> Уведомления о новых записях на почту и в Telegram</li>
+    <li><i class="fas fa-calendar-times"></i> Возможность настраивать расписание и блокировать время</li>
+    <li><i class="fas fa-envelope-open-text"></i> Форма обратной связи и предварительная анкета</li>
+    <li><i class="fas fa-file-export"></i> Экспорт клиентской базы в Excel</li>
+    <li><i class="fas fa-chart-line"></i> Статистика посещаемости, записей и источников трафика</li>
+  </ul>
+</section>
+
+<section class="cta-plan">
+  <h2>Хотите пошаговый план по развитию практики?</h2>
+  <p><i class="fas fa-lightbulb"></i> Оставьте заявку — мы проведем анализ вашей ниши, составим структуру сайта, подскажем, как позиционировать себя и привлечь больше клиентов.</p>
+  <a class="button" href="#">Получить бесплатно</a>
+</section>
+
+<section class="cases">
+  <img src="https://images.unsplash.com/photo-1606166325685-1c7edb2d42e4?auto=format&fit=crop&w=1200&q=80" alt="Кейсы клиентов" style="width:100%; border-radius:8px; margin-bottom:20px;" loading="lazy" style="width:100%; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+  <h2>Успешные кейсы</h2>
+  <ul>
+    <li><i class="fas fa-star"></i> Анна С. — психолог, рост записей в 2,5 раза за первый месяц</li>
+    <li><i class="fas fa-star"></i> Юрий Б. — семейный терапевт, больше заявок с SEO и соцсетей</li>
+    <li><i class="fas fa-star"></i> Центр «Эмпатия» — записи на вебинары прямо через сайт</li>
+  </ul>
+</section>
+</body>
+</html>
